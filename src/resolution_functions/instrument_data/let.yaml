@@ -58,10 +58,8 @@ version:
             d_sample_detector: 3.5                  # Distance (x2) from sample to detector (m)
             aperture_width: 0.        # Width of aperture at moderator face (m)
             theta: 32.0                  # Angle beamline makes with moderator face (degrees)
-            q_size: 100
             default_e_init: 20  # meV
             allowed_e_init: [ 0., 30. ]  # meV
-            max_wavenumber: 2000  # meV
             default_chopper_frequency: [ 240, 120 ]
             allowed_chopper_frequencies: [[10, 301, 10], [10, 301, 10]]
             constant_frequencies: [0, 10, 0, 0, 0]
@@ -71,7 +69,6 @@ version:
             moderator:
                 type: 3
                 scaling_function: null
-                scaling_parameters: null
                 measured_wavelength: [3.8063, 2.1961, 6.2121, 5.3820, 1.4371, 1.7010, 2.6920, 1.9013]
                 measured_width: [90.4, 40.8, 154.4, 131.2, 22.4, 25.6, 52.4, 32.4]
                 parameters: [0.535, 49.28, -3.143]      # Parameters for time profile

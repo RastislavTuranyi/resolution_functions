@@ -32,9 +32,14 @@ test = [
     "pychop @ git+https://github.com/mducle/pychop.git",
     "more_itertools >= 10.5.0",
 ]
+docs = [
+    "sphinx >= 8.1.3",
+    "numpydoc >= 1.8.0",
+    "myst-parser >= 4.0.0",
+]
 
 [project.urls]
-Repository = "https://github.com/RastislavTuranyi/resolution_functions"
+Repository = "https://github.com/pace-neutrons/resolution_functions"
 
 [tool.setuptools]
 include-package-data = true

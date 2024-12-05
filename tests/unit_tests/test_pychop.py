@@ -258,7 +258,7 @@ def test_nonfermi_moderator_width_analytical(e_init, pychop_nonfermi_data):
 def _test_moderator_width_analytical(e_init, data, pychop, cls):
     data = data.moderator
     actual = cls._get_moderator_width_analytical(data['type'], data['parameters'], data['scaling_function'],
-                                                 data['scaling_parameters'], e_init)
+                                                 data.get('scaling_parameters'), e_init)
     expected = pychop.moderator.getAnalyticWidthsSquared(e_init)
 
     assert_allclose(actual, expected)

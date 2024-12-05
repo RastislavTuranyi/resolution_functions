@@ -8,10 +8,8 @@ version:
             d_sample_detector: 6.0                  # Distance (x2) from sample to detector (m)
             aperture_width: 0.094         # Width of aperture at moderator face (m)
             theta: 32.0                   # Angle beamline makes with moderator face (degrees)
-            q_size: 100
             default_e_init: 500  # meV
             allowed_e_init: [ 0, 2000 ]  # meV
-            max_wavenumber: 2000  # meV
             default_chopper_frequency: 400
             allowed_chopper_frequencies: [50, 601, 50]
             frequency_matrix:

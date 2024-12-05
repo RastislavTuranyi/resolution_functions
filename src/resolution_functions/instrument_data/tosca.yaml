@@ -16,7 +16,6 @@ version:
             detector_thickness: 0.006  # m
             sample_width: 0.02  # m
             detector_width: 0.012  # m
-            graphite_analyser_mosaic: 2.5  # deg
             crystal_plane_spacing: 3.348e-10  # m
         settings: &tfxa_settings
             detector_bank:
@@ -47,7 +46,6 @@ version:
             detector_thickness: 0.0025  # m
             sample_width: 0.02  # m
             detector_width: 0.012  # m
-            graphite_analyser_mosaic: 2.5  # deg
             crystal_plane_spacing: 3.348e-10  # m
         settings: &tosca1_settings
             detector_bank:
@@ -105,7 +103,6 @@ version:
                     graphite_thickness: 0.002  # m
                     sample_width: 0.04  # m ???????????? where is it used?
                     detector_width: 0.12  # m
-                    graphite_analyser_mosaic: 2.5  # deg
                 settings:
                     detector_bank:
                         <<: *tosca_settings
